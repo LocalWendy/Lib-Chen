@@ -688,7 +688,7 @@ uICorner8.Name = "UICorner"
 uICorner8.CornerRadius = UDim.new(0, 3)
 uICorner8.Parent = rightContainer
 
-function Table(lol,pop)
+function Tab:Table(lol,pop)
 Info.Text = lol or "Idk"
 Info.Side = pop or "Left"
 
